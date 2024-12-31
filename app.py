@@ -5,8 +5,8 @@ from langchain.utilities import SerpAPIWrapper
 import streamlit as st
 
 # Set API Keys
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "32342892897b45a2b341d365042684cedc97e3d366ef91f90024cfb9c3ae4150"  # Alternatively, load from .env
+os.environ["OPENAI_API_KEY"] = "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"
+os.environ["SERPAPI_API_KEY"] = "8a477f9b01a1bbf7e5ed8940940dae9d9cff7bc1ce01e868310823d4a724f502"  # Alternatively, load from .env
 
 # Research Agent using SerpAPI
 def research_agent(query):
