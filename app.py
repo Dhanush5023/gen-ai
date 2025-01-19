@@ -23,9 +23,9 @@ def use_case_agent(industry_insights):
     return llm(prompt)
 
 # Streamlit App
-st.title("Multi-Agent System for AI Use Case Generation")
+st.title("Hello ra neku em kavali")
 
-company_or_industry = st.text_input("Enter a Company or Industry for Research")
+company_or_industry = st.text_input("COMPANY NAME ENTER CHEY")
 if st.button("Generate Proposal"):
     st.write("Conducting research...")
     research = research_agent(company_or_industry)
